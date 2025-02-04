@@ -1,0 +1,10 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="clock-snooze" clip-path="url(#clip0_2_2298)">
+<path id="Icon" d="M13.6871 13.7778H17.7082L13.6871 17.799H17.7082M18.0706 10.5609C18.0969 10.2964 18.1103 10.0281 18.1103 9.75668C18.1103 5.31503 14.5097 1.71436 10.068 1.71436C5.62635 1.71436 2.02568 5.31503 2.02568 9.75668C2.02568 14.1983 5.62635 17.799 10.068 17.799C10.2028 17.799 10.3369 17.7957 10.4701 17.7891C10.6051 17.7825 10.7391 17.7725 10.8722 17.7593M10.068 4.93129V9.75668L13.0745 11.2599" stroke="white" stroke-width="1.60847" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_2_2298">
+<rect width="19.3016" height="19.3016" fill="white" transform="translate(0.417213 0.105957)"/>
+</clipPath>
+</defs>
+</svg>

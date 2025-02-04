@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+nav {
+  font-family: "Poppins", sans-serif;
+}
+.footer-discover,
+.landing-hero {
+  font-family: "Merriweather";
+}
+
+.why-Intense:hover {
+  background: #4a885b;
+  color: white;
+  transition: margin-top 1s, background-color 0.5s;
+}
+.why-Intense:hover .icon {
+  background: white;
+}
+/* qna */
+.dropdown-menu:hover .dropdown {
+  display: block;
+}
+.dropdown-menu:hover .img-rotate {
+  transform: rotate(180deg);
+  transition: transform 1s;
+}
+/* nav language */
+.lang-container:hover .language {
+  display: block;
+}
+
+/* card slider */
+.slide {
+  width: 30%;
+  height: 450px;
+}
+.active-slide {
+  width: 30%;
+  height: 450px;
+}
+
+/* blog */
+.blog-container:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.blog-container:hover .blog-arrow {
+  background: #cfff45;
+  border: 1px solid #adeaad;
+  cursor: pointer;
+  rotate: -145deg;
+  transition: rotate 0.5s, background-color 0.7s;
+}
+
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+}
