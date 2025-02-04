@@ -1,17 +1,17 @@
 import React from "react";
 import { useState } from "react";
 
-// import LgFooter from "../Components/Footer/LgFooter";
-// import LandingFooter from "../Components/Footer/LandingFooter";
-// import SmDiscoverFooter from "../Components/Footer/SmDiscoverFooter";
-// import FooterDiscover from "../Components/Footer/FooterDiscover";
+import LgFooter from "../Components/Footer/LgFooter";
+import SmFooter from "../Components/Footer/SmFooter";
+import SmDiscoverFooter from "../Components/Footer/SmDiscoverFooter";
+import LgDiscoverFooter from "../Components/Footer/LgDiscoverFooter";
 
-import search_icon from "../assets/icons/search-lg.jpg";
-import bg_image from "../assets/Images/image copy.png";
+import search_icon from "../Assets/icons/search-lg.jpg";
 import down_arrow_icon from "../assets/icons/Icon.svg";
 import right_arrow_icon from "../assets/icons/Group 47806 (1).jpg";
 import left_arrow_icon from "../assets/icons/Group 47806 (2).jpg";
 
+import bg_image from "../Assets/Images/image copy.png";
 import blog_image1 from "../assets/Images/38eb87ab0767453f896c85eb489edb8b.jpeg";
 import blog_image2 from "../assets/Images/ba9f69ca06e4a5a61da2a5006690a632.jpeg";
 import blog_image3 from "../assets/Images/da084bdffb5909731be829d659b96fe1.jpeg";
@@ -172,12 +172,12 @@ const Blogs = () => {
           <img src={right_arrow_icon} alt="" />
         </button>
       </div>
-      {/* <FooterDiscover />
+      <LgDiscoverFooter />
       <SmDiscoverFooter />
       <div className="block lg:hidden">
-        <LandingFooter />
+        <SmFooter />
       </div>
-      <LgFooter /> */}
+      <LgFooter />
     </div>
   );
 };
