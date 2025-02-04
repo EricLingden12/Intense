@@ -55,3 +55,37 @@ nav {
 .scroll-hide::-webkit-scrollbar {
   display: none;
 }
+
+/* team management */
+.realtime-container:hover .features-realtime {
+  transform: rotateY(180deg) rotateZ(50deg);
+  transition: width 2s, height 2s, transform 2s;
+}
+.chart-container:hover .chart1 {
+  height: 80px;
+  transition: height 1s;
+}
+.chart-container:hover .chart2 {
+  height: 60px;
+  transition: height 1s;
+}
+.chart-container:hover .chart3 {
+  height: 50px;
+  transition: height 1s;
+}
+.chart-container:hover .chart4 {
+  height: 90px;
+  transition: height 1s;
+}
+.chart-container:hover .chart5 {
+  height: 70px;
+  transition: height 1s;
+}
+.chart-container:hover .arrow-chart {
+  transform: rotateX(180deg);
+  transition: width 2s, height 2s, transform 2s;
+}
+.customizable-dashboards:hover .customize-icons {
+  margin: 0px;
+  transition: margin 1s;
+}
