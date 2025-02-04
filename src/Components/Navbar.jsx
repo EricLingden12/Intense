@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 import nav_logo_icon from "../Assets/icons/Intense (1).svg";
 import nav_logo2_icon from "../Assets/icons/Group (1).jpg";
-import lang_icon from "../Assets/Icons/Frame (1).jpg";
+import lang_icon from "../Assets/Icons/Language_logo.jpg";
 import downarrow_icon from "../Assets/Icons/cheveron-down.jpg";
 import login_icon from "../Assets/Icons/log-in-04.jpg";
 import menu_icon from "../Assets/Icons/menu-02.jpg";
