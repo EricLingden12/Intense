@@ -7,8 +7,8 @@ import { IoIosArrowDown } from "react-icons/io";
 import nav_logo_icon from "../Assets/icons/Intense (1).svg";
 import nav_logo2_icon from "../Assets/icons/Group (1).jpg";
 
-import login_icon from "../Assets/Icons/log-in-04.jpg";
-import menu_icon from "../Assets/Icons/menu-02.jpg";
+import login_icon from "../Assets/icons/log-in-04.jpg";
+import menu_icon from "../Assets/icons/menu-02.jpg";
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
   const [language, setLanguage] = useState("English");

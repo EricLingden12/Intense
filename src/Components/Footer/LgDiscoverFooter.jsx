@@ -1,9 +1,9 @@
 import React from "react";
-import roof_icon from "../../Assets/Icons/Object.svg";
-import note_icon from "../../Assets/Icons/Group (1).svg";
+import roof_icon from "../../Assets/icons/Object.svg";
+import note_icon from "../../Assets/icons/Group (1).svg";
 import right_arrow_icon from "../../Assets/Icons/Right.svg";
-import bag_icon from "../../Assets/Icons/Object (1).svg";
-import clock_icon from "../../Assets/Icons/Object (2).svg";
+import bag_icon from "../../Assets/icons/Object (1).svg";
+import clock_icon from "../../Assets/icons/Object (2).svg";
 const LgDiscoverFooter = () => {
   return (
     <div className="lg:block mb-[100px] hidden h-[500px] bg-[#F8FDEA] rounded-[12px] relative font-m footer-discover">

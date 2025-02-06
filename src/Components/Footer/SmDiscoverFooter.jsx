@@ -1,7 +1,7 @@
 import React from "react";
-import roof_icon from "../../Assets/Icons/Object (3).svg";
-import note_icon from "../../Assets/Icons/Group (3).svg";
-import right_arrow_icon from "../../Assets/Icons/Right.svg";
+import roof_icon from "../../Assets/icons/Object (3).svg";
+import note_icon from "../../Assets/icons/Group (3).svg";
+import right_arrow_icon from "../../Assets/icons/Right.svg";
 
 const SmDiscoverFooter = () => {
   return (

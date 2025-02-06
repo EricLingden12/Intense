@@ -2,7 +2,6 @@ import React from "react";
 
 import Qna from "../Components/Qna.jsx";
 import TeamManagement from "../Components/TeamManagement.jsx";
-import LgFooter from "../Components/Footer/LgFooter";
 import SmFooter from "../Components/Footer/SmFooter";
 import SmDiscoverFooter from "../Components/Footer/SmDiscoverFooter";
 import LgDiscoverFooter from "../Components/Footer/LgDiscoverFooter";
@@ -12,7 +11,7 @@ import WhyIntense from "../Components/WhyIntense.jsx";
 import Statistics from "../Components/Landing/Statistics.jsx";
 import PricingPlan from "../Components/Landing/PricingPlan.jsx";
 
-import logo from "../assets/icons/landing-logos/Logo.svg";
+import logo from "../assets/Images/Logo.png";
 import logo1 from "../assets/icons/landing-logos/Logo (1).svg";
 import logo2 from "../assets/icons/landing-logos/Logo (2).svg";
 import logo3 from "../assets/icons/landing-logos/Logo (3).svg";
