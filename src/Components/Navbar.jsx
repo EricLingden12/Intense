@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 import { IoLanguageOutline } from "react-icons/io5";
+import { IoIosArrowDown } from "react-icons/io";
 
 import nav_logo_icon from "../Assets/icons/Intense (1).svg";
 import nav_logo2_icon from "../Assets/icons/Group (1).jpg";
-import downarrow_icon from "../Assets/Icons/cheveron-down.jpg";
+
 import login_icon from "../Assets/Icons/log-in-04.jpg";
 import menu_icon from "../Assets/Icons/menu-02.jpg";
 const Navbar = () => {
@@ -62,7 +63,7 @@ const Navbar = () => {
             <div className="flex items-center gap-2 cursor-pointer relative ">
               <IoLanguageOutline className="w-[18] h-[18px] " />
               <p className="text-[15px] font-[700]">{language}</p>
-              <img src={downarrow_icon} alt="" />
+              <IoIosArrowDown />
             </div>
             <div className="absolute bg-gray-200 hidden px-[25px] py-[20px] language cursor-pointer">
               <p onClick={() => setLanguage("English")}>English</p>
@@ -132,7 +133,7 @@ const Navbar = () => {
                     <div className="flex items-center gap-2 cursor-pointer relative ">
                       <IoLanguageOutline className="w-[18] h-[18px] " />
                       <p className="text-[15px] font-[700]">{language}</p>
-                      <img src={downarrow_icon} alt="" />
+                      <IoIosArrowDown />
                     </div>
                     <div className="absolute bg-gray-200 hidden px-[25px] py-[20px] language cursor-pointer">
                       <p onClick={() => setLanguage("English")}>English</p>
