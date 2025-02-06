@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
+import { IoLanguageOutline } from "react-icons/io5";
+
 import nav_logo_icon from "../Assets/icons/Intense (1).svg";
 import nav_logo2_icon from "../Assets/icons/Group (1).jpg";
-import lang_icon from "../Assets/Icons/Language_logo.jpg";
 import downarrow_icon from "../Assets/Icons/cheveron-down.jpg";
 import login_icon from "../Assets/Icons/log-in-04.jpg";
 import menu_icon from "../Assets/Icons/menu-02.jpg";
@@ -18,6 +19,7 @@ const Navbar = () => {
           <img className="w-[19px] h-[24px] " src={nav_logo2_icon} alt="" />
           <img className="w-[76px] h-[16px]" src={nav_logo_icon} alt="" />
         </NavLink>
+
         {/* for larger screens */}
         <div className="lg:flex items-center hidden ">
           <ul className="flex items-center lg:gap-[40px] md:gap-[20px] xl:me-[100px] lg:me-[40px] ">
@@ -58,7 +60,7 @@ const Navbar = () => {
 
           <div className="lang-container">
             <div className="flex items-center gap-2 cursor-pointer relative ">
-              <img src={lang_icon} className="w-[18] h-[18px] " />
+              <IoLanguageOutline className="w-[18] h-[18px] " />
               <p className="text-[15px] font-[700]">{language}</p>
               <img src={downarrow_icon} alt="" />
             </div>
@@ -128,7 +130,7 @@ const Navbar = () => {
                 <div className="flex mx-auto items-center gap-2 cursor-pointer hover:border-b-1 ">
                   <div className="lang-container">
                     <div className="flex items-center gap-2 cursor-pointer relative ">
-                      <img src={lang_icon} className="w-[18] h-[18px] " />
+                      <IoLanguageOutline className="w-[18] h-[18px] " />
                       <p className="text-[15px] font-[700]">{language}</p>
                       <img src={downarrow_icon} alt="" />
                     </div>
